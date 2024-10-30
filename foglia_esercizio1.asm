@@ -1,0 +1,18 @@
+
+
+
+
+MOV AX,300
+MOV BX,400
+MOV CX,10
+CMP AX,BX
+JB scelta
+ADD AX,BX
+INC BX
+JNP fine
+scelta:
+ADD AX,CX
+INC CX
+fine:
+PUSH AX
+ 
